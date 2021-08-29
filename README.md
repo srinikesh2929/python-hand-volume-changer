@@ -6,11 +6,14 @@
 Run this code in your Termial or Command-prompt **(Line-by-Line)**
 ```bash
 pip install opencv-python
-
+```
+```bash
 pip install mediapipe
-
+```
+```bash
 pip install numpy
-
+```
+```bash
 pip install pycaw
 ```
 ### Run the python file in your machine.. ⚡⚡⚡
