@@ -17,6 +17,13 @@ cap.set(3, WCam)
 cap.set(4, HCam)
 pTime = 0
 
+
+print('''
+
+if you want to close the app please close this...
+
+''')
+
 detector = htm.HandDetector(detectionCon=0.7)
 
 devices = AudioUtilities.GetSpeakers()
