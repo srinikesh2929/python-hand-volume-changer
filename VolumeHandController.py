@@ -1,4 +1,4 @@
-from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+from modules.pycaw import AudioUtilities, IAudioEndpointVolume
 from comtypes import CLSCTX_ALL
 from ctypes import cast, POINTER
 import cv2
