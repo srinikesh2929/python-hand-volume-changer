@@ -1,4 +1,4 @@
-# Python Hand Volume Changer 
+# Python Hand Volume Changer (only Windows)
 
 **Inspired by [Murtaza Sir](https://www.computervision.zone/courses/advance-computer-vision-with-python/) 🙏**
 
