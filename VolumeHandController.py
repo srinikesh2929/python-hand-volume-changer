@@ -43,7 +43,6 @@ while True:
     img = detector.findHands(img, draw=False)
     lmList = detector.findPositions(img, draw=False)
     if len(lmList) != 0:
-        # print(lmList[4], lmList[8])
         x1, y1 = lmList[4][1], lmList[4][2]
         x2, y2 = lmList[8][1], lmList[8][2]
         cx, cy = (x1+x2)//2, (y1+y2)//2
@@ -52,13 +51,9 @@ while True:
         cv2.circle(img, (cx, cy), 15, (0, 0, 255), cv2.FILLED)
         cv2.line(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
         length = math.hypot(x2-x1, y2-y1)
-        # print(length)
-        # hand range 50-300
-        # vol range -65-0
         vol = np.interp(length, [50, 300], [minVol, maxVol])
         volBar = np.interp(length, [50, 300], [400, 150])
         volPer = np.interp(length, [50, 300], [0, 100])
-        # print(vol)
         volume.SetMasterVolumeLevel(vol, None)
         if length < 50:
             cv2.circle(img, (cx, cy), 15, (255, 255, 0), cv2.FILLED)
