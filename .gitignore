@@ -1,6 +1,4 @@
 *.rar
 __pycache__
 __pycache__/*
-trial/*
-trial
 .vs
