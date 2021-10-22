@@ -3,7 +3,7 @@
 **Inspired by [Murtaza Sir](https://www.computervision.zone/courses/advance-computer-vision-with-python/) 🙏**
 
 ## Getting Started
-Run this code inside this folder , in your Cmd or Powershell 👇👇<br>
+Run this code inside this folder , in your Cmd or Powershell 👇👇
 ```bash
     pip install -r requirements.txt
 ```
