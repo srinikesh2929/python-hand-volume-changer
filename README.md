@@ -3,9 +3,9 @@
 **Inspired by [Murtaza Sir](https://www.computervision.zone/courses/advance-computer-vision-with-python/) 🙏**
 
 ## Getting Started
-Run this code inside this folder , in your Cmd or Powershell 👇👇
+Run this code inside this folder , in your Cmd or Powershell 👇👇<br>
 ```pip install -r requirements.txt```
-**<br><br>
+<br><br>
 **Download the file [here](https://github.com/srinikesh2929/python-hand-volume-changer/releases/tag/v1.2) 👈👈**
 ### Run the python file in your machine.. :zap: :zap: :zap:
 
