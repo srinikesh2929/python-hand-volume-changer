@@ -4,7 +4,9 @@
 
 ## Getting Started
 Run this code inside this folder , in your Cmd or Powershell 👇👇<br>
-```pip install -r requirements.txt```
+```bash
+    pip install -r requirements.txt
+```
 <br><br>
 **Download the file [here](https://github.com/srinikesh2929/python-hand-volume-changer/releases/tag/v1.2) 👈👈**
 ### Run the python file in your machine.. :zap: :zap: :zap:
